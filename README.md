@@ -13,13 +13,11 @@ O objetivo é criar uma web api para cadastro de veículos utilizando .net 5 ou 
 A web api deve conter o crud básico (buscar, adicionar, atualizar e remover) de veículos e seus respectivos proprietários.
 Seria interessante que os veículos e seus proprietários tivessem seus dados armazenados em tabelas distintas interligadas (chave estrangeira).
 Seria interessante a utilização de Entity Framework com repositórios destinados para cada entidade ou um repositório genérico para atender todas (fica a critério).
-Dependendo do tamanho da base, pode ser interessante uma solução de indexação para maior agilidade nas pesquisas.
+
 Regras
 Para o desafio ficar mais interessante, decidimos criar umas regras básicas:
 
 É necessário conter, no mínimo, duas entidades relacionadas (podem haver mais, caso julgue necessário).
-
-Não se deve receber ou retornar a própria entidade em uma requisição/resposta json. Seria interessante a utilização de DTO ou similar (Pode-se usar AutoMapper ou similar para facilitar o processo, caso julge necessário).
 
 A api deve utilizar uma base de dados para persistência de informações (SQL Server, LocalDB, SQLite, MySQL ou qualquer outro, deste que utilizando EF Core).
 
