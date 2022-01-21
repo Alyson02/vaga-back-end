@@ -17,13 +17,12 @@ Dependendo do tamanho da base, pode ser interessante uma solução de indexaçã
 Regras
 Para o desafio ficar mais interessante, decidimos criar umas regras básicas:
 
-Deve ser usada a arquitetura com DDD para a estrutura do projeto.
 É necessário conter, no mínimo, duas entidades relacionadas (podem haver mais, caso julgue necessário).
+
 Não se deve receber ou retornar a própria entidade em uma requisição/resposta json. Seria interessante a utilização de DTO ou similar (Pode-se usar AutoMapper ou similar para facilitar o processo, caso julge necessário).
+
 A api deve utilizar uma base de dados para persistência de informações (SQL Server, LocalDB, SQLite, MySQL ou qualquer outro, deste que utilizando EF Core).
-Seria interessante a utilicação de repositórios e serviços via injeção de dependências (a utilização de abstracts para agilizar o processo seria interessante).
-A api não deve ter acesso livre. Deve ser utilizado algum método de identificação utilizando OAuth 2.0.
-É permitido utilizar pacotes nuget ou similares para agilidade (inclusive pacotes de autoria própria).
+
 Por onde começo?
 Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome (ex: nome_sobrenome), para podermos indentificá-lo.
 
